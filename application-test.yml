@@ -1,0 +1,10 @@
+my:
+  greeting: Hello Werld from Config Server Test
+  list.properties: One,Two,Three
+db:
+  connection: "Config Serveer Test!!!"
+  port: 8008
+  host: host
+
+
+
