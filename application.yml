@@ -1,0 +1,13 @@
+my:
+  greeting: Hello Werld from Config Server
+  list.properties: One,Two,Three
+db:
+  connection: "Config Serveer!!!"
+  port: 8088
+  host: host
+
+#expose everything(http://localhost:8080/actuator/configprops)
+management.endpoints.web.exposure:
+  include: "*"
+
+
